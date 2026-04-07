@@ -9,6 +9,9 @@ while (true)
     Console.WriteLine("5. Menu de Opções");
     Console.WriteLine("6. Tabuada de um Número");
     Console.WriteLine("7. Contagem Regressiva");
+    Console.WriteLine("8. Média de Notas");
+    Console.WriteLine("9. Verificação de Login");
+    Console.WriteLine("10. Cálculo com escolha de operação");
     Console.WriteLine("0. Sair");
     Console.Write("\nEscolha: ");
 
@@ -21,6 +24,9 @@ while (true)
         case "5": Ex05_MenuDeOpcoes.Executar(); break;
         case "6": Ex06_TabuadaDeUmNumero.Executar(); break;
         case "7": Ex07_ContagemRegressiva.Executar(); break;
+        case "8": Ex08_MediaDeNotas.Executar(); break;
+        case "9": Ex09_VerificacaoDeLogin.Executar(); break;
+        case "10": Ex10_CalculoComEscolhaDeOperacao.Executar(); break;
         case "0": return;
         default: Console.WriteLine("Opção inválida. Tente novamente."); break;
     }
