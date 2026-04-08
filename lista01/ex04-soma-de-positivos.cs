@@ -28,6 +28,6 @@ public class Ex04_SomaDePositivos
     {
         int[] numeros = Soma();
 
-        Console.WriteLine("A soma dos números positivos é: {0}", numeros[0]);
+        Console.WriteLine($"A soma dos números positivos é: {numeros[0]}");
     }
 }

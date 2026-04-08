@@ -12,7 +12,7 @@ public class Ex05_MenuDeOpcoes
                 fatorial *= i;
             }
 
-            Console.WriteLine("O fatorial de {0} é: {1}", numero, fatorial);        
+            Console.WriteLine($"O fatorial de {numero} é: {fatorial}");
         } else {
             Console.WriteLine("Número inválido. Por favor, digite um número entre 0 e 15.");
         }
@@ -39,11 +39,11 @@ public class Ex05_MenuDeOpcoes
                     break;
                 case "2":
                     Console.WriteLine("----------------------------\n");
-                    Console.WriteLine("A data atual é: {0}", DateTime.Now.Date.ToShortDateString());
+                    Console.WriteLine($"A data atual é: {DateTime.Now.Date.ToShortDateString()}");
                     break;
                 case "3":
                     Console.WriteLine("----------------------------\n");
-                    Console.WriteLine("A hora atual é: {0}", DateTime.Now.TimeOfDay.ToString().Substring(0, 8));
+                    Console.WriteLine($"A hora atual é: {DateTime.Now.TimeOfDay.ToString().Substring(0, 8)}");
                     break;
                 case "4":
                     Console.WriteLine("----------------------------\n");

@@ -14,11 +14,11 @@ public class Ex02_MaiorDeTresNumeros
         if (a == b && b == c) {
             Console.WriteLine("Os três números são iguais.");
         } else if (a >= b && a >= c) {
-            Console.WriteLine("O maior número é: {0}", a);
+            Console.WriteLine($"O maior número é: {a}");
         } else if (b >= a && b >= c) {
-            Console.WriteLine("O maior número é: {0}", b);
+            Console.WriteLine($"O maior número é: {b}");
         } else {
-            Console.WriteLine("O maior número é: {0}", c);
+            Console.WriteLine($"O maior número é: {c}");
         }
     }
 }
