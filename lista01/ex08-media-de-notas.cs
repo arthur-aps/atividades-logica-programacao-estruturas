@@ -4,8 +4,8 @@ public class Ex08_MediaDeNotas
     {
         int[] numeros = Ex04_SomaDePositivos.Soma();
 
-        int media = numeros[0] / numeros[1];
+        double media = (double)numeros[0] / numeros[1];
 
-        Console.WriteLine($"A média das notas é: {media}");
+        Console.WriteLine($"A média das notas é: {media:F1}");
     }
 }
